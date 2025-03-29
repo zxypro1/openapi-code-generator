@@ -1,6 +1,6 @@
 {
     "name": "openapi-codegen",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "description": "Generate code examples from OpenAPI specifications for multiple languages",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -21,7 +21,7 @@
       "javascript",
       "axios"
     ],
-    "author": "Your Name <your.email@example.com>",
+    "author": "zxypro1 <1018995004@qq.com>",
     "license": "MIT",
     "dependencies": {
       "openapi-types": "^12.0.0"
@@ -44,9 +44,9 @@
     },
     "repository": {
       "type": "git",
-      "url": "https://github.com/yourusername/openapi-codegen.git"
+      "url": "https://github.com/zxypro1/openapi-code-generator.git"
     },
     "bugs": {
-      "url": "https://github.com/yourusername/openapi-codegen/issues"
+      "url": "https://github.com/zxypro1/openapi-code-generator/issues"
     }
   }
