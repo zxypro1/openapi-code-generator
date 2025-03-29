@@ -1,6 +1,6 @@
-# OpenAPI Code Generator
+# OpenAPI Example Code Generator
 
-[![npm version](https://img.shields.io/npm/v/openapi-codegen.svg)](https://www.npmjs.com/package/openapi-codegen)
+[![npm version](https://img.shields.io/npm/v/openapi-example-code-generator.svg)](https://www.npmjs.com/package/openapi-example-code-generator)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Generate executable code examples from OpenAPI specifications for multiple languages.
@@ -15,9 +15,9 @@ Generate executable code examples from OpenAPI specifications for multiple langu
 ## Installation
 
 ```bash
-npm install openapi-codegen
+npm install openapi-example-code-generator
 # or
-yarn add openapi-codegen
+yarn add openapi-example-code-generator
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ yarn add openapi-codegen
 ### Basic Example
 
 ```typescript
-import { OpenAPICodeGenerator } from "openapi-codegen";
+import { OpenAPICodeGenerator } from "openapi-example-code-generator";
 import type { OpenAPIObject } from "openapi-types";
 
 const openApiSpec: OpenAPIObject = {

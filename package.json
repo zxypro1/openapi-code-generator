@@ -1,5 +1,5 @@
 {
-    "name": "openapi-codegen",
+    "name": "openapi-example-code-generator",
     "version": "0.0.1",
     "description": "Generate code examples from OpenAPI specifications for multiple languages",
     "main": "dist/index.js",
@@ -44,9 +44,9 @@
     },
     "repository": {
       "type": "git",
-      "url": "https://github.com/zxypro1/openapi-code-generator.git"
+      "url": "https://github.com/zxypro1/openapi-example-code-generator.git"
     },
     "bugs": {
-      "url": "https://github.com/zxypro1/openapi-code-generator/issues"
+      "url": "https://github.com/zxypro1/openapi-example-code-generator/issues"
     }
   }
