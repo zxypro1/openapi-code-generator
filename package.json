@@ -1,0 +1,52 @@
+{
+    "name": "openapi-codegen",
+    "version": "1.0.0",
+    "description": "Generate code examples from OpenAPI specifications for multiple languages",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+      "build": "tsc",
+      "test": "jest",
+      "lint": "eslint . --ext .ts",
+      "prepublish": "npm run build"
+    },
+    "keywords": [
+      "openapi",
+      "codegen",
+      "rest",
+      "api",
+      "curl",
+      "python",
+      "java",
+      "javascript",
+      "axios"
+    ],
+    "author": "Your Name <your.email@example.com>",
+    "license": "MIT",
+    "dependencies": {
+      "openapi-types": "^12.0.0"
+    },
+    "devDependencies": {
+      "@types/jest": "^29.5.0",
+      "@types/node": "^20.0.0",
+      "@typescript-eslint/eslint-plugin": "^6.0.0",
+      "@typescript-eslint/parser": "^6.0.0",
+      "eslint": "^8.0.0",
+      "jest": "^29.5.0",
+      "ts-jest": "^29.1.0",
+      "typescript": "^5.0.0"
+    },
+    "files": [
+      "dist/**/*"
+    ],
+    "engines": {
+      "node": ">=16.0.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yourusername/openapi-codegen.git"
+    },
+    "bugs": {
+      "url": "https://github.com/yourusername/openapi-codegen/issues"
+    }
+  }

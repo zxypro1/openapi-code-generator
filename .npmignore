@@ -1,0 +1,54 @@
+# Development files
+node_modules/
+.git/
+.github/
+.vscode/
+.idea/
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+test/
+tests/
+coverage/
+.nyc_output/
+.mocharc.js
+jest.config.js
+
+# Configuration files
+.eslintrc*
+.prettier*
+.travis.yml
+.circleci/
+.editorconfig
+tsconfig.json
+webpack.config.js
+babel.config.js
+.babelrc
+
+# Source maps
+*.map
+
+# Build tools
+.grunt/
+.webpack/
+
+# Temporary files
+.tmp/
+.temp/
+tmp/
+temp/
+
+# Miscellaneous
+.npmignore
+.gitignore
+.env*
+*.tgz
+.npmrc
+package-lock.json
+yarn.lock
+CHANGELOG.md
+CONTRIBUTING.md
