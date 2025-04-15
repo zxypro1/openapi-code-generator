@@ -11,6 +11,7 @@ Generate executable code examples from OpenAPI specifications for multiple langu
 - **Smart Example Generation**: Automatically handles path/query parameters and request bodies
 - **Type Safe**: Built with TypeScript and official OpenAPI types
 - **Framework Agnostic**: Works with any OpenAPI 3.0+ specification
+- **Multi-runtime Support**: Run in brower (React, Vue, etc.) and Node.js.
 
 ## Installation
 
